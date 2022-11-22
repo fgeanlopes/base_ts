@@ -8,7 +8,12 @@ const inf = 'Testando'
 //Annotation
 const ann: string = 'Teste'
 
-
+// declaracao de parametro opcional
+export type BalanceValueTS ={
+    title?:string,
+    value?:string,
+    balanceType?:string
+}
 
 // Tipos //
 
